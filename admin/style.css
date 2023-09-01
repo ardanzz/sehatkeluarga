@@ -1,0 +1,211 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.fContainer {
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    min-width: 200px;
+
+}
+
+.utama {
+    width: 81%;
+    height: 100%;
+    background-color: white;
+}
+
+.wrapper {
+
+    font-size: 20px;
+    padding: 15px;
+    width: 15%;
+    height: 100%;
+    background-color: mistyrose;
+}
+
+/* .headerbg {
+
+    width: 1584px;
+    height: 100px;
+    background-color: mistyrose;
+    position: relative;
+    bottom: 20px;
+} */
+
+.brand {
+    width: 100% !important;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.fonta-css {
+    padding-right: 3px;
+    padding-top: 3px;
+    color: cornflowerblue;
+}
+
+.firstname {
+    /* background-color: #000000; */
+    padding-top: 5px;
+    font-size: 20px;
+    color: #f402af;
+    padding-right: 5px;
+    padding-left: 1px;
+    position: relative;
+    right: 5px;
+    left: 10px;
+    /* background-color: cornflowerblue; */
+}
+
+.lastname {
+    /* background-color: #000000; */
+    width: 100% !important;
+    display: flex;
+    font-size: 15px;
+    padding-top: 20px;
+    color: #F45002;
+    margin: 10px;
+    position: relative;
+    right: 80px;
+    top: 5px;
+    /* background-color: crimson; */
+}
+
+.satuline {
+    color: #F45002;
+    display: block !important;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* go ahead */
+
+.navigation {
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+/* .navigation>li>i {
+    display: flex;
+    padding-right: 15px;
+} */
+
+
+.navigation>li {
+    display: flex;
+    padding-bottom: 20px;
+    list-style-type: none;
+    /* padding-left: 10px; */
+    padding: 7px 10px
+}
+
+.navigation>li>p>a {
+    /* background-color: red; */
+    width: 180px;
+    height: 50px;
+    display: block;
+    color: #000000;
+    font-size: 15px;
+    font-family: cursive;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>p>a:hover {
+    background-color: rgb(9, 149, 243);
+    font-size: 20px;
+    display: block;
+    color: white;
+    padding: 10px 25px;
+    width: 180px;
+    height: 50px;
+
+
+
+
+    transition: all .8s ease-in-out;
+    /* background-color: rgb(9, 149, 243); */
+}
+
+/* .aktif:hover {
+    height: 50px;
+    margin: 7px 15px;
+} */
+
+*/ .ket {
+    flex-direction: column;
+
+}
+
+.ket>li {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    list-style-type: none;
+    color: black;
+}
+
+.ket>li>p>a {
+    height: 10px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.ket>li>p>a:hover {
+    color: crimson;
+    padding: 7px 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.description {
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 15px;
+    display: list-item;
+}
+
+.target {
+    display: block;
+    position: absolute;
+    border-bottom: 4px solid transparent;
+    z-index: -1;
+    transform: translateX(-60px);
+}
+
+.navigation>li>p>a,
+.target {
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+.content {
+    min-height: 100px;
+    padding: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 0%;
+}
+
+.go {
+    background-color: white;
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-left: 10px;
+    position: relative;
+    top: 15px;
+}
